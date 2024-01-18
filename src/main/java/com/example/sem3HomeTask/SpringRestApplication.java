@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Инициализирует и запускает приложение как стандартное.
  */
 @SpringBootApplication
-public class Sem3HomeTaskApplication {
+public class SpringRestApplication {
 
 	/**
 	 * Точка входа в приложение Spring Boot.
@@ -18,7 +18,7 @@ public class Sem3HomeTaskApplication {
 	 * Также аргументы могут быть использованы для настройки поведения SpringApplication.
 	 */
 	public static void main(String[] args) {
-		SpringApplication.run(Sem3HomeTaskApplication.class, args);
+		SpringApplication.run(SpringRestApplication.class, args);
 	}
 
 }
